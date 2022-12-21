@@ -1,0 +1,32 @@
+section{
+    display: grid;
+    grid-template-columns: 25% auto auto;
+}
+
+.asidebar{
+    display: flex;
+    flex-direction: column;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: 33% auto auto;
+  
+    gap: 10px;
+  
+    
+
+}
+
+
+.grid-item{
+    display: flex;
+    flex-direction: column;   
+    border: solid 2px; 
+}
+
+
+
+
+
+
