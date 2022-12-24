@@ -2,65 +2,128 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- Normalize -->
+	<link rel="stylesheet" href="assets/css/normalize.css" />
+	<!-- Style.css -->
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Koulen&family=Oleo+Script+Swash+Caps&family=Pacifico&family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet"> 
+	<script src="https://kit.fontawesome.com/ba0aa31ab5.js" crossorigin="anonymous"></script>
+
+
+	<title>La pátisserie</title>
 </head>
 
+
 <body>
+	<div class="grid-container">
+		<header>
+			<img src="assets/imgs/lapatisserie.png" alt="La Pátisserie">
 
-    <header>
-        <h1>Esto es una página de ecommerce</h1>
-    </header>
+		</header>
 
+		<nav>
 
+			<h4><a href="#"> Nuestras tiendas</a></h4>
+			<h4><a href="#"> Reservas</a></h4>
+			<h4><a href="#"> Nuestra misión</a></h4>
+			<h4><a href="#"> Preguntas frecuentes</a></h4>
+			<h4><a href="#"> Contáctanos</a></h4>
+			<a href=""><i class="fa-solid fa-cart-shopping"></i></a>
 
-    <section>
+		</nav>
 
-        <div class="asidebar">
-            <h3>Categorías</h3>
-            <p>Producto 1</p>
-            <p>Producto 2</p>
-        </div>
+		<aside>
+			<h1>"La carte"</h1>
 
-        <div class="products">
+			<a href="">Macarons</a>
+			<a href="">Eclairs</a>
+			<a href="">Traiteur</a>
+			<a href="">Salé</a>
+			<a href="">Boissons</a>
+			<a href="">Végétalien</a>
+			<a href="">Espécialités</a>
+		</aside>
 
-            <div class="grid-item">
-                <h3>Producto1</h3>
-                <img src="assets/imgs/img300px.jpg" alt="">
-            </div>
-            <div class="grid-item">
-                <h3>Producto2</h3>
-                <img src="assets/imgs/img300px.jpg" alt="">
-            </div>
-            <div class="grid-item">
-                <h3>Producto3</h3>
-            
-            <img src="assets/imgs/img300px.jpg" alt="">
-        </div>
-            <div class="grid-item">
-                <h3>Producto4</h3>
-                <img src="assets/imgs/img300px.jpg" alt="">
-            </div>
-            <div class="grid-item">
-                <h3>Producto5</h3>
-                <img src="assets/imgs/img300px.jpg" alt="">
-            </div>
-          
-            <div class="grid-item">
-                <h3>Producto6</h3>
-                <img src="assets/imgs/img300px.jpg" alt="">
-            </div>
+		<section>
+			<div class="grid-container-products">
 
-        </div>
-    </section>
+				<div class="featured">
+					<h2>Los más vendidos </h2>
+				</div>
 
 
+				<div class="cards-container">
+					<div class="card">
+						<img src="assets/imgs/macarons.jpeg" alt="Macarons" />
+						<h3>Macarons</h3>
+						<p>$1.490</p>
+						<a href="">Agregar al carrito</a>
+					</div>
+				</div>
 
 
-    <footer>fin del comunicado</footer>
+				<div class="cards-container">
+					<div class="card">
+						<img src="assets/imgs/tartaleta.jpeg" alt="Tartaleta" />
+						<h3>Traiteur</h3>
+						<p>$3.690</p>
+						<a href="">Agregar al carrito</a>
+					</div>
+				</div>
+
+
+				<div class="cards-container">
+					<div class="card">
+						<img src="assets/imgs/cremebrule.jpeg" alt="Cremebrulee" />
+						<h3>Crême brûlée</h3>
+						<p>$7.990</p>
+						<a href="">Agregar al carrito</a>
+					</div>
+				</div>
+
+
+				<div class="cards-container">
+					<div class="card">
+						<img src="assets/imgs/croissantveg.jpeg" alt="Croissantveg" />
+						<h3>Croissant vegetariano</h3>
+						<p>$7.490</p>
+						<a href="">Agregar al carrito</a>
+					</div>
+				</div>
+
+
+				<div class="cards-container">
+					<div class="card">
+						<img src="assets/imgs/eclair.jpeg" alt="Eclairs" />
+						<h3>Eclair</h3>
+						<p>$3.990</p>
+						<a href="">Agregar al carrito</a>
+					</div>
+				</div>
+
+
+				<div class="cards-container">
+					<div class="card">
+						<img src="assets/imgs/profiteroles.jpeg" alt="Profiteroles" />
+						<h3>Profiterol</h3>
+						<p>$3.490</p>
+						<a href="">Agregar al carrito</a>
+					</div>
+				</div>
+
+			</div>
+		</section>
+	</div>
+
+	<footer>@lapatisseriecl</footer>
+
+
+
 </body>
 
 </html>
